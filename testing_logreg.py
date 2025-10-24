@@ -7,6 +7,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 
 # Load dataset
+# dataset faulty bcs too big... 
+# Dataset: https://www.kaggle.com/datasets/kartik2112/fraud-detection 
+
 df = pd.read_csv('fraudTest.csv')
 
 # Encode Grade (A,B,C,D,F) → numeric labels (e.g., A=0, B=1, etc.)
