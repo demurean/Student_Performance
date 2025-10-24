@@ -26,6 +26,9 @@ df = pd.read_csv('student_performance_dataset.csv')
 # plt.xlabel('Grade')
 # plt.ylabel('Frequency')
 # plt.show()
+
+# df.plot(x='Age', y='Grade', kind='hist') 
+# ?
 #--------------------------------------------------------------------
 
 grades = df['Grade']
@@ -66,4 +69,3 @@ plt.ylabel('Frequency')
 plt.title('sleep_hours distribution')
 plt.show()
 
-df.plot(x='age', y='grades', kind='hist')
